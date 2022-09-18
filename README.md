@@ -11,10 +11,5 @@
 3. パッケージのインストール
 `pip install -r requirements.txt`
 
-あとは`YOUR_NOTIFY_TOKEN`などの設定をすればOK
-
-例) 
-
-ターミナル: `export YOUR_NOTIFY_TOKEN="hogehgoe"`
-
-Python: `os.environ['YOUR_NOTIFY_TOKEN'] = 'hogehoge'`
+4. .envファイルにトークンの記述
+ex) `$ echo "YOUR_NOTIFY_TOKEN=hogehoge" > .echo`
