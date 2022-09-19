@@ -12,4 +12,4 @@
 `pip install -r requirements.txt`
 
 4. .envファイルにトークンの記述
-ex) `$ echo "YOUR_NOTIFY_TOKEN=hogehoge" > .echo`
+ex) `$ echo "YOUR_NOTIFY_TOKEN=hogehoge" > .env`
